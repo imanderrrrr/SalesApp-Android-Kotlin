@@ -24,7 +24,7 @@ Este proyecto combina **arquitectura moderna de Android**, soporte **offline-fir
 
 ##  Arquitectura General
 
-```
+
 ![Carrito de compras](app/images/Carrito_de_compras.jpeg)
 ![Lista de productos](app/images/Lista_de_productos.jpeg)
 ![Detalle producto](app/images/Detalle_producto.jpeg)
@@ -32,7 +32,7 @@ Este proyecto combina **arquitectura moderna de Android**, soporte **offline-fir
 ![Pedido guardado](app/images/Pedido_guardado.jpeg)
         ↓
 Data Source (Remote + Local)
-```
+
 
 Esta arquitectura garantiza:
 
@@ -46,13 +46,13 @@ Esta arquitectura garantiza:
 ##  Capturas de Pantalla
 
 
-```md
+
 ![Lista de productos](images/Lista_de_productos.jpeg)
 ![Detalle producto](images/Detalle_producto.jpeg)
 ![Carrito de compras](images/Carrito_de_compras.jpeg)
 ![Pedido guardado](images/Pedido_guardado.jpeg)
 ![Detalle del pedido](images/Detalle_del_pedido.jpeg)
-```
+
 
 ---
 
