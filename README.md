@@ -21,7 +21,7 @@ Este proyecto combina **arquitectura moderna de Android**, soporte **offline-fir
 
 ---
 
-##  Arquitectura General
+##  Capturas de pantalla
 
 <p align="center">
   <img src="app/images/Carrito_de_compras.jpeg" width="300" style="margin: 10px;">
@@ -43,21 +43,6 @@ Esta arquitectura garantiza:
 * Facilidad para testear  
 * Escalabilidad  
 * Reemplazar Firestore por otra fuente sin tocar la UI  
-
----
-
-##  Capturas de Pantalla
-
-<p align="center">
-  <img src="images/Lista_de_productos.jpeg" width="260" style="margin: 10px;">
-  <img src="images/Detalle_producto.jpeg" width="260" style="margin: 10px;">
-  <img src="images/Carrito_de_compras.jpeg" width="260" style="margin: 10px;">
-</p>
-
-<p align="center">
-  <img src="images/Pedido_guardado.jpeg" width="260" style="margin: 10px;">
-  <img src="images/Detalle_del_pedido.jpeg" width="260" style="margin: 10px;">
-</p>
 
 ---
 
