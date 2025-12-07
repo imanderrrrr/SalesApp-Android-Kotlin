@@ -1,4 +1,3 @@
-
 #  Distribuidora Jireh — Sistema de Ventas (Android + Firestore + Room)
 
 **Aplicación móvil empresarial** desarrollada para la gestión de ventas, control de inventario y registro de pedidos en tiempo real.
@@ -17,42 +16,48 @@ Este proyecto combina **arquitectura moderna de Android**, soporte **offline-fir
 * **RecyclerView + ListAdapter + DiffUtil**
 * **Material Design**
 * **LiveData / StateFlow**
-* **Dependency Injection (Hilt opcional)**
-* **Firebase Authentication (si aplica)**
+* **Dependency Injection**
+* **Firebase Authentication**
 
 ---
 
 ##  Arquitectura General
 
+<p align="center">
+  <img src="app/images/Carrito_de_compras.jpeg" width="300" style="margin: 10px;">
+  <img src="app/images/Lista_de_productos.jpeg" width="300" style="margin: 10px;">
+  <img src="app/images/Detalle_producto.jpeg" width="300" style="margin: 10px;">
+  <img src="app/images/Detalle_del_pedido.jpeg" width="300" style="margin: 10px;">
+  <img src="app/images/Pedido_guardado.jpeg" width="300" style="margin: 10px;">
+</p>
 
-![Carrito de compras](app/images/Carrito_de_compras.jpeg)
-![Lista de productos](app/images/Lista_de_productos.jpeg)
-![Detalle producto](app/images/Detalle_producto.jpeg)
-![Detalle del pedido](app/images/Detalle_del_pedido.jpeg)
-![Pedido guardado](app/images/Pedido_guardado.jpeg)
-        ↓
-Data Source (Remote + Local)
+<p align="center">
+  ↓
+</p>
 
+**Data Source (Remote + Local)**
 
 Esta arquitectura garantiza:
 
-* Bajo acoplamiento
-* Facilidad para testear
-* Escalabilidad
-* Reemplazar Firestore por otra fuente sin tocar la UI
+* Bajo acoplamiento  
+* Facilidad para testear  
+* Escalabilidad  
+* Reemplazar Firestore por otra fuente sin tocar la UI  
 
 ---
 
 ##  Capturas de Pantalla
 
+<p align="center">
+  <img src="images/Lista_de_productos.jpeg" width="260" style="margin: 10px;">
+  <img src="images/Detalle_producto.jpeg" width="260" style="margin: 10px;">
+  <img src="images/Carrito_de_compras.jpeg" width="260" style="margin: 10px;">
+</p>
 
-
-![Lista de productos](images/Lista_de_productos.jpeg)
-![Detalle producto](images/Detalle_producto.jpeg)
-![Carrito de compras](images/Carrito_de_compras.jpeg)
-![Pedido guardado](images/Pedido_guardado.jpeg)
-![Detalle del pedido](images/Detalle_del_pedido.jpeg)
-
+<p align="center">
+  <img src="images/Pedido_guardado.jpeg" width="260" style="margin: 10px;">
+  <img src="images/Detalle_del_pedido.jpeg" width="260" style="margin: 10px;">
+</p>
 
 ---
 
@@ -60,28 +65,28 @@ Esta arquitectura garantiza:
 
 ###  Control de inventario
 
-* Listado de productos en tiempo real
-* Búsquedas, filtros, actualización de stock
-* Sincronización automática online/offline
+* Listado de productos en tiempo real  
+* Búsquedas, filtros, actualización de stock  
+* Sincronización automática online/offline  
 
 ###  Gestión de ventas
 
-* Carrito de compras avanzado
-* Cálculo de totales, descuentos, cantidades
-* Validación de inventario
-* Confirmación de compra con persistencia
+* Carrito de compras avanzado  
+* Cálculo de totales, descuentos, cantidades  
+* Validación de inventario  
+* Confirmación de compra con persistencia  
 
 ###  Sincronización con Firestore
 
-* Lectura y escritura en la nube
-* Suscripciones en tiempo real con **callbackFlow**
-* Repositorio independiente de la UI
+* Lectura y escritura en la nube  
+* Suscripciones en tiempo real con **callbackFlow**  
+* Repositorio independiente de la UI  
 
 ###  Soporte completo offline
 
-* Base de datos Room
-* Operaciones funcionando sin internet
-* Sincronización cuando la conexión regresa
+* Base de datos Room  
+* Operaciones funcionando sin internet  
+* Sincronización cuando la conexión regresa  
 
 ---
 
