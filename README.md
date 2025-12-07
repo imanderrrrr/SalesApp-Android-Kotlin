@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #  Distribuidora Jireh — Sistema de Ventas (Android + Firestore + Room)
 
@@ -151,3 +152,7 @@ Email: andersonaguirre794@gmail.com
 GitHub: https://github.com/imanderrrrr
 
 
+=======
+# SalesApp-Android-Kotlin
+Sistema móvil de ventas e inventario con Kotlin, Firestore y Room. Arquitectura limpia, carrito de compras, flujo completo de pedidos y sincronización offline-first.
+>>>>>>> 1c11cb64d6cd8c38614f804980570c7cb6de0dd3
