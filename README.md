@@ -25,11 +25,11 @@ Este proyecto combina **arquitectura moderna de Android**, soporte **offline-fir
 ##  Arquitectura General
 
 ```
-UI (Activities / Fragments)
-        ↓
-ViewModel
-        ↓
-Repository (Firestore / Room)
+![Carrito de compras](app/images/Carrito_de_compras.jpeg)
+![Lista de productos](app/images/Lista_de_productos.jpeg)
+![Detalle producto](app/images/Detalle_producto.jpeg)
+![Detalle del pedido](app/images/Detalle_del_pedido.jpeg)
+![Pedido guardado](app/images/Pedido_guardado.jpeg)
         ↓
 Data Source (Remote + Local)
 ```
