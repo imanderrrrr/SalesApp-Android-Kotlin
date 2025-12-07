@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 #  Distribuidora Jireh — Sistema de Ventas (Android + Firestore + Room)
 
@@ -46,7 +45,6 @@ Esta arquitectura garantiza:
 
 ##  Capturas de Pantalla
 
-> *(Aquí pones 3–6 imágenes de tu app)*
 
 ```md
 ![Lista de productos](images/Lista_de_productos.jpeg)
@@ -106,7 +104,7 @@ common/
 
 ---
 
-## Puntos fuertes del proyecto (para reclutadores)
+## Puntos fuertes del proyecto
 
 * Migración completa a repositorios desacoplados (Firestore → Repository → ViewModel → UI)
 * Uso avanzado de ListAdapter + DiffUtil
