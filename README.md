@@ -24,9 +24,9 @@ Este proyecto combina **arquitectura moderna de Android**, soporte **offline-fir
 ##  Capturas de pantalla
 
 <p align="center">
-  <img src="app/images/Carrito_de_compras.jpeg" width="300" style="margin: 10px;">
   <img src="app/images/Lista_de_productos.jpeg" width="300" style="margin: 10px;">
   <img src="app/images/Detalle_producto.jpeg" width="300" style="margin: 10px;">
+  <img src="app/images/Carrito_de_compras.jpeg" width="300" style="margin: 10px;">
   <img src="app/images/Detalle_del_pedido.jpeg" width="300" style="margin: 10px;">
   <img src="app/images/Pedido_guardado.jpeg" width="300" style="margin: 10px;">
 </p>
